@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/*Base*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Effect Glass*/
+.effect-glass {
+    background: rgba(255, 255, 255, 0.52);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.9px);
+    -webkit-backdrop-filter: blur(5.9px);
+    border: 1px solid rgba(255, 255, 255, 0.62);
+}
+
+/*Button 1*/
+.css-button-sliding-to-left--blue {
+  min-width: 90px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  z-index: 0;
+  background: #fff;
+  overflow: hidden;
+  border: 2px solid #2c0b8e;
+  color: #2c0b8e;
+}
+.css-button-sliding-to-left--blue:hover {
+  color: #fff;
+}
+.css-button-sliding-to-left--blue:hover:after {
+  width: 100%;
+}
+.css-button-sliding-to-left--blue:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  transition: all 0.3s ease;
+  right: 0;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background: #2c0b8e;
+}
+
+/*Button 2*/
+.css-button-sliding-to-left--grey {
+  min-width: 90px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  z-index: 0;
+  background: #fff;
+  overflow: hidden;
+  border: 2px solid #495057;
+  color: #495057;
+}
+.css-button-sliding-to-left--grey:hover {
+  color: #fff;
+}
+.css-button-sliding-to-left--grey:hover:after {
+  width: 100%;
+}
+.css-button-sliding-to-left--grey:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  transition: all 0.3s ease;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background: #495057;
+}
+
+/*Custom Horizontal Rule*/
+hr {
+   border-top: 4px solid #a502ee;
+   border-bottom: 4px solid #02fff7;
+   background-color: white;
+   height: 12px;
+}
+
+/*Backgrounds Custom*/
+.bg-light1 {
+    background-image: url('https://i.postimg.cc/xdLK4Txj/vista-superior-armario-papel-decorativo.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bg-light2 {
+    background-image: url('https://i.postimg.cc/HkQ9GXbf/vecteezy-abstract-white-background-with-halftone-texture-6469232.jpg');
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.bg-light3 {
+    background-image: url('https://i.postimg.cc/G20hVy3B/metal-background225-01.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bdradius {
+    border-radius: 20px;
+}
+
+.content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translate(8%, -10%);
+    width: 80%;
+    padding: 20px;
+    box-sizing: border-box;
+    color: #fff;
+    text-shadow: 0 5px 10px #0004;
+    z-index: 10;
+}
+
+/*Fieldset custom*/
+fieldset {
+  background-color: #eeeeee;
+}
+
+legend {
+  background-color: gray;
+  color: white;
+  padding: 5px 10px;
+}
+
+/*Responsive Viewer*/
+@media (max-width: 1400px) {
+    .content {
+        font-size: 0.8em;
+    }
+}
+
+@media (max-width: 1150px) {
+    .content {
+        font-size: 0.5em;
+    }
+}
+
+@media (max-width: 550px) {
+    .content {
+        font-size: 0.2em;
+    }
+}
+
+/*GoogleFont*/
+.roboto-thin { font-family: "Roboto", sans-serif; font-weight: 100; font-style: normal; }
+.roboto-thin-italic { font-family: "Roboto", sans-serif; font-weight: 100; font-style: italic; }
+.roboto-light { font-family: "Roboto", sans-serif; font-weight: 300; font-style: normal; }
+.roboto-regular { font-family: "Roboto", sans-serif; font-weight: 400; font-style: normal; }
+.roboto-regular-italic { font-family: "Roboto", sans-serif; font-weight: 400; font-style: italic; }
+.roboto-medium { font-family: "Roboto", sans-serif; font-weight: 500; font-style: normal; }
+.roboto-bold { font-family: "Roboto", sans-serif; font-weight: 700; font-style: normal; }
+.roboto-black { font-family: "Roboto", sans-serif; font-weight: 900; font-style: normal; }
+
+footer {
+bottom: 0;
+width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
